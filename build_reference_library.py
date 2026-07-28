@@ -9,8 +9,8 @@ def merge_files(source_directory, output_file_path):
                     output_file.write(input_file.read())
 
 if __name__ == "__main__":
-    source_directory = "/scratch/12355656/Benchmarking/Err_Mdl/ncbi-genomes-2023-08-15"  # Path to input directory
-    output_file_path = "/scratch/12355656/Benchmarking/Err_Mdl/reference/ncbi_sequence_2023_07_17.fna"    # Path to output file
+    source_directory = "path/to/Err_Mdl/ncbi-genomes-2023-08-15"  # Path to input directory
+    output_file_path = "path/to/Err_Mdl/reference/ncbi_sequence_2023_07_17.fna"    # Path to output file
 
     merge_files(source_directory, output_file_path)
     print("All files have been merged into", output_file_path)
