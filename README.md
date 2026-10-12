@@ -4,5 +4,5 @@ Use bowtie2 to determine the error rate of DNA sequencing reads. Then using InSi
 ## BLAST Database building
 
 ```bash
-makeblastdb  -in reference_genome.fna -out reference_genome -parse_seqids -dbtype nucl
+makeblastdb -in reference_genome.fna -out reference_genome -parse_seqids -dbtype nucl
 ```
