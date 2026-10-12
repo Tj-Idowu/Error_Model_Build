@@ -13,4 +13,4 @@ if __name__ == "__main__":
     output_file_path = "path/to/Err_Mdl/reference/ncbi_sequence_2023_07_17.fna"    # Path to output file
 
     merge_files(source_directory, output_file_path)
-    print("All files have been merged into", output_file_path)
+    print("Done merging files to", output_file_path)
